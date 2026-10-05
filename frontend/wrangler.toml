@@ -1,9 +1,7 @@
-name = "my-app"
-main = "src/index.js"
-compatibility_date = "2026-10-05"
-
-[site]
-bucket = "./dist"   # This is the directory with your built assets
-
-[assets]
-directory = "./dist"   # Required property
+{
+  "name": "hr-employee-portal",
+  "compatibility_date": "2026-10-05",
+  "assets": {
+    "directory": "./frontend/dist"
+  }
+}
