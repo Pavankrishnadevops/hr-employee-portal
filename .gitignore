@@ -1,1 +1,11 @@
 node_modules
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
+
+# Ignore the empty nested checkout
+hr-employee-portal/
